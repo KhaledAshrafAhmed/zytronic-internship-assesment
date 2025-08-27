@@ -122,6 +122,7 @@ export default function ChatWindow({ conversationId, otherUserId, otherUserName 
 
   const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
+    console.log(`${(process.env.NEXT_PUBLIC_API_URL ?? '').replace(/\/api$/, '')}`)
     if (!file || !conversationId) return;
 
     const formData = new FormData();
