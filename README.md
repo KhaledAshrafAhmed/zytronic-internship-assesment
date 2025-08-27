@@ -54,6 +54,9 @@ cd ../frontend
 npm install
 npm run dev
 ```
+
+### then create an account and start chatting
+
 ## Author
 
 Khaled Ashraf (Zytronic Internship Assessment)
